@@ -50,6 +50,15 @@ body{
     border: solid var(--accentColor) 2px;
 }
 
+.socialIcons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:1.5rem;
+  opacity: .9;
+  height:28px;
+}
+
 .link:hover{
     background-color: var(--bgColor);
     color: var(--accentColor);
