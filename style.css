@@ -20,7 +20,7 @@ body{
 
 #userName{
     color: #bbb;
-    font-size: 4rem;
+    font-size: 2rem;
     font-weight: 600;
     line-height: 1.25;
     display: block;
@@ -45,7 +45,7 @@ body{
     margin-bottom: 20px;
     padding: 17px;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.3rem;
     transition: all .25s cubic-bezier(.08,.59,.29,.99);
     border: solid var(--accentColor) 2px;
 }
