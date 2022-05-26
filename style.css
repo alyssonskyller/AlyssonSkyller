@@ -30,6 +30,7 @@ body{
     text-decoration: none;
 }
 
+/* 
 #links{
     max-width: 675px;
     width: auto;
@@ -48,7 +49,7 @@ body{
     font-size: 1rem;
     transition: all .25s cubic-bezier(.08,.59,.29,.99);
     border: solid var(--accentColor) 2px;
-}
+} */
 
 .socialIcons{
   display: flex;
@@ -59,7 +60,43 @@ body{
   height:28px;
 }
 
+/*
 .link:hover{
     background-color: var(--bgColor);
     color: var(--accentColor);
 }
+*/
+/* From uiverse.io by @Voxybuns */
+links {
+    /* Variables */
+   --link_radius: 0.75em;
+   --link_color: #e8e8e8;
+   --link_outline_color: #000000;
+   font-size: 17px;
+   font-weight: bold;
+   border: none;
+   border-radius: var(--link_radius);
+   background: var(--link_outline_color);
+  }
+  
+  .link_top {
+   display: block;
+   box-sizing: border-box;
+   border: 2px solid var(--link_outline_color);
+   border-radius: var(--link_radius);
+   padding: 0.75em 1.5em;
+   background: var(--link_color);
+   color: var(--link_outline_color);
+   transform: translateY(-0.2em);
+   transition: transform 0.1s ease;
+  }
+  
+  link:hover -link_top {
+    /* Pull the-link upwards when hovered */
+   transform: translateY(-0.33em);
+  }
+  
+  link:active -link_top {
+    /* Push the-link downwards when pressed */
+   transform: translateY(0);
+  }
