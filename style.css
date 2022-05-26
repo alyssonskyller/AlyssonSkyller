@@ -30,7 +30,6 @@ body{
     text-decoration: none;
 }
 
-/* 
 #links{
     max-width: 675px;
     width: auto;
@@ -49,7 +48,7 @@ body{
     font-size: 1rem;
     transition: all .25s cubic-bezier(.08,.59,.29,.99);
     border: solid var(--accentColor) 2px;
-} */
+} 
 
 .socialIcons{
   display: flex;
@@ -60,15 +59,15 @@ body{
   height:28px;
 }
 
-/*
+
 .link:hover{
     background-color: var(--bgColor);
     color: var(--accentColor);
 }
-*/
-/* From uiverse.io by @Voxybuns */
-links {
-    /* Variables */
+
+/* From uiverse.io by @Voxybuns 
+/* links {
+    /* Variables 
    --link_radius: 0.75em;
    --link_color: #e8e8e8;
    --link_outline_color: #000000;
@@ -92,11 +91,12 @@ links {
   }
   
   link:hover .link_top {
-    /* Pull the-link upwards when hovered */
+    /* Pull the-link upwards when hovered
    transform: translateY(-0.33em);
   }
   
   link:active .link_top {
-    /* Push the-link downwards when pressed */
+    /* Push the-link downwards when pressed 
    transform: translateY(0);
   }
+  */
