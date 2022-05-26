@@ -91,12 +91,12 @@ links {
    transition: transform 0.1s ease;
   }
   
-  link:hover -link_top {
+  link:hover .link_top {
     /* Pull the-link upwards when hovered */
    transform: translateY(-0.33em);
   }
   
-  link:active -link_top {
+  link:active .link_top {
     /* Push the-link downwards when pressed */
    transform: translateY(0);
   }
